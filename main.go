@@ -1,6 +1,9 @@
 package main
 
+import (
+	"github.com/ensky/snake-game/snake"
+)
+
 func main() {
-	g := NewGame()
-	g.Start()
+	snake.NewGame().Start()
 }
